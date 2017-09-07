@@ -1,0 +1,11 @@
+.container.sing_in {
+    width: 30%;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+label.radio-inline {
+    margin-left: 60px;
+}
+
+button.btn.btn-primary {}

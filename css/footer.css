@@ -1,0 +1,35 @@
+	.book_text_center{
+		/* padding-bottom: 5%; */
+		text-align: center;
+		color: #11375b;
+		clear: both;
+	}
+	span.fa.fa-google-plus-square.fa-fw {
+		font-size: 24px;
+		color: red;
+	}
+
+	span.fa.fa-facebook-square.fa-fw {
+		font-size: 24px;
+		color: darkblue;
+	}
+	footer{
+		margin-top: 30px;
+		height: 120px;
+		clear: both;
+		background-color: #dad7db;
+	}
+	.wdth_footer_60{
+		float: left;
+		width: 60%;
+		margin-top: 15px;
+	}
+	.wdth_footer_40{
+		float: left;
+		width: 40%;
+		margin-top: 15px;
+		text-align: right;
+	}
+	.author-web{
+		list-style: square;
+	}

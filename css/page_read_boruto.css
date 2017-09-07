@@ -1,0 +1,13 @@
+@media only screen and(max-width: 1200px) and(min-width: 992px){
+	.content_new_face {
+	    margin-top: 15px;
+	    width: 165px;
+	}
+	iframe {
+	    width: 165px;
+	}
+}
+
+.image_read{
+	width: 100%;
+}

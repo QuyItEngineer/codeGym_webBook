@@ -1,0 +1,85 @@
+.title_new_story {
+    margin-top: 15px;
+    background-color: #11375b;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.content_new_face {
+    margin-top: 15px;
+}
+.title_link{
+    background-image: url("../images/info/link_title.png");
+    width: 112px;
+    height: 64px;
+    position: relative;
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.content_info{
+    background-color: #dad7db;
+    width: 100%;
+    height: 900px;
+    margin-top: 15px;
+    padding: 5px 0px 0px 5px;
+}
+.content-introduction{
+    clear: both;
+    margin-left: 5px;
+}
+.introduction{
+    border-top: solid 5px  #11375b; ;
+}
+
+.info-story {
+    padding: 5px 0px 0px 15px;
+}
+
+.row.gioi_thieu {
+    position: relative;
+}
+
+.read-and-buy {
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+}
+
+.all-chapter {
+    padding-left: 5px;
+}
+.content_top_story {
+    height: 458px;
+    margin-top: 15px;
+    background-color: #dad7db;
+}
+.top_xephang {
+    padding-top: 15px;
+    padding-left: 5px;
+    height: 72px;
+}
+
+.col-xs-7.col-sm-7.col-md-7.col-lg-7.more_info {
+    position: static;
+}
+#image_big_info{
+    width: 100%;
+}
+#chapter01:visited {
+    color:  #8A2BE2;
+    text-decoration: none;
+}
+#chapter01:hover {
+    color: black;
+}
+.white_space{
+    white-space: pre-line;
+}
+#name-story{
+    font-weight: bold;
+}
+.overflow-chapter{
+    height: 317px;
+    overflow: auto;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Books store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+ 
+
+</head>
+<body>
+
+<div id="wapper">
+	<header>
+		<div class="container">
+			<div class="header main">
+				<div class="logo">
+					
+					<div class="image_logo">
+						<a href="index.html">
+							<img src="images/book_logo.png">
+						</a>
+					</div>
+					<a href="index.html">
+						<div class="image_text">
+							<p><h3><b>BOOKS</b></h3><h5>store</h5></p>
+							
+						</div>
+					</a>
+				</div>
+				<nav class="navbar navbar-default" role="navigation" id="navbar_header">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<div class="menu_header_list">
+									<ul>
+										<li>
+											<a href="/index.html">Categories</a>
+
+										</li>
+											<ul class="ul1">
+										        <li><a href="#">Truyện tranh</a></li>
+										        <li><a href="#">Truyện bộ</a></li>
+									        </ul>
+									        <ul class="ul2">
+									        	 <li><a href="#">Truyện dài</a></li>
+										        <li><a href="#">Truyện dân gian</a></li>
+									        </ul>
+									</ul>
+								</div>
+							<ul class="nav navbar-nav">
+								<li><a href="#" id="shop_book">Shop books</a></li>
+							</ul>
+							<form action="" class="search-form">
+				                <div class="form-group has-feedback">
+				            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+				              		<a href="#"><span class="fa fa-search fa-fw"></span></a>
+				            	</div>
+				            </form>
+							<button type="button" class="btn btn-primary sing_in">
+								<a class="sing_in" href="signin.html">Sing In</a>
+							</button>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="container sing_in">
+			<form action="" method="POST" role="form">
+				<legend>Follow us!</legend>
+			
+				<div class="form-group">
+					<label for="">Name:</label>
+					<input type="text" class="form-control" id="" placeholder="Your name">
+				</div>
+				<div class="form-group">
+					<label for="">Email:</label>
+					<input type="email" class="form-control" id="" placeholder="abc123@example.com">
+				</div>
+				<div class="form-group">
+					<label for="">Pass Word:</label>
+					<input type="password" class="form-control" id="" placeholder="********">
+				</div>
+				
+				<div class="radio form-group">
+					<label>Sex:</label>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions"  value="option1"> Male
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="inlineRadioOptions" value="option2"> Female
+					</label>
+				</div>
+			
+				<button type="submit" class="btn btn-primary" id="submit_form">Sign In</button>
+				<button type="button" class="btn btn-default"><a href="index.html">Cancel</a></button>
+			</form>
+		</div>
+	<footer>
+		<div class="container">
+				<div class="wdth_footer_60">
+					<p>Address: 08 Nguyen Thong, Da Nang <br>
+						Phone: 01674213940 <br>
+						Product by: QuyITEngineer</p>
+				</div>
+				<div class="wdth_footer_40">
+					<span class="fa fa-google-plus-square fa-fw"></span>
+					<span class="fa fa-facebook-square fa-fw"></span>
+					<span class="fa fa-google-plus-square fa-fw"></span>
+					
+				</div>
+				<div class="book_text_center">
+					<h6>Copy right QuyIt &copy 2017</h6>
+				</div>
+		</div>
+	</footer>
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+	$("input:radio").click(function() {
+    if ($(this).is(":checked")) {
+        var group = "input:radio[name='" + $(this).attr("name") + "']";
+        $(group).prop("checked", false);
+        $(this).prop("checked", true);
+    } else {
+        $(this).prop("checked", false);
+    }
+});
+</script>
+</body>
+
+</html>
