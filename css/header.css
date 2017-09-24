@@ -2,6 +2,8 @@ header{
 	height: 83px;
 	width: 100%;
 	background-color: #f0eaf2;
+	position: fixed;
+	z-index: 1;
 }
 #shop_book{
 	    color: #11375b;

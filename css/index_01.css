@@ -56,7 +56,7 @@ a.prev:hover,a.next:hover {
 .new_story{
 	margin-top: 15px;
 	width: 200px;
-	height: 350px;
+	height: 290px;
 	background-color: #dad7db;
 	float: left;
 	margin-right: 23px;
@@ -76,7 +76,7 @@ a.prev:hover,a.next:hover {
 .container.truyenbo{
 }
 .content_top_story{
-	height: 715px;
+	height: 597px;
 	margin-top: 15px;
 	background-color: #dad7db;
 }
@@ -91,4 +91,17 @@ a.text_top {
 	padding-left: 5px;
 	height: 72px;
 	display: inline-flex;
+}
+.iframe-map{
+	height: 300px;
+	margin-top: 10px;
+}
+ a[href="info.html"] {color: #191970;}
+ .container.slide {
+    padding-top: 90px;
+}
+
+.new_story_image{
+	width: 200px;
+	height: 230px;
 }

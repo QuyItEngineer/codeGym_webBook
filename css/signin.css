@@ -2,10 +2,21 @@
     width: 30%;
     margin: 25px auto;
     padding: 10px;
+    box-shadow: 3px 3px 10px;
 }
 
 label.radio-inline {
     margin-left: 60px;
 }
 
-button.btn.btn-primary {}
+.container.fix_header {
+    padding-top: 95px;
+}
+.button_round button {
+    width: 118px;
+    margin: 10px auto;
+}
+.button_round {
+	display: flex;
+    flex-direction: row;
+}

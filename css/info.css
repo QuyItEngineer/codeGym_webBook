@@ -20,7 +20,7 @@
 .content_info{
     background-color: #dad7db;
     width: 100%;
-    height: 900px;
+    height: 1300px;
     margin-top: 15px;
     padding: 5px 0px 0px 5px;
 }
@@ -29,7 +29,11 @@
     margin-left: 5px;
 }
 .introduction{
-    border-top: solid 5px  #11375b; ;
+    border-top: solid 5px  #11375b;
+    padding-top: 10px;
+}
+p.introduction:first-letter{
+    font-size: 3em;
 }
 
 .info-story {
@@ -78,8 +82,25 @@
 }
 #name-story{
     font-weight: bold;
+    border-bottom: 10px solid transparent;
+    padding-bottom: 15px;
+    margin-right: 15px;
+    -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/border.png) 30 stretch;
 }
 .overflow-chapter{
     height: 317px;
     overflow: auto;
+}
+
+.hover_button_info{
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    background: none;
+    transition: width 2s, height 2s;
+}
+.hover_button_info:hover {
+    width: 180px;
 }

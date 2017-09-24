@@ -93,7 +93,8 @@
 							</div>
 							<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 more_info">
 								<div class="info-story">
-									<h3 id="name-story">Boruto Next ....</h3>
+									<h3 id="name-story">Boruto: Naruto Next Generations</h3>
+									<canvas id="canvas" style="border: none; height: 20px; width: 450px;"></canvas>
 									<p class="white_space">
 										Tác giả: Rogie Custodio.
 										Thể loại: Truyện tranh.
@@ -107,18 +108,29 @@
 									<img src="images/info/info-02.png" alt="">
 								</div>
 								<div class="read-and-buy">
-										<a href="page_read_boruto.html"><img src="images/info/info-03.png" alt=""></a>
-										<a href="#"><img src="images/info/info-04.png" alt=""></a>
+										<a href="page_read_boruto.html"><img class="hover_button_info" src="images/info/info-03.png" alt=""></a>
+										<a href="#"><img class="hover_button_info" src="images/info/info-04.png" alt=""></a>
+										
 									</div>
 							</div>
 						</div>
 						<div class="content-introduction">
 							<p class="content_title">
 								<h4><span class="fa fa-list-alt fa-fw"></span>Nội dung:</h4>
-								<p class="introduction">
-									Bộ truyện này nói về một nhóm 3 ninja của làng Konoha cùng thế hệ với Naruto : Kindo, Sachi, Kaura. Cũng như bao ninja khác, họ thực hiện rất nhiều nhiệm vụ khác nhau do. Nhưng một ngày, sau khi họ hoàn thành một nhiệm vụ cấp A trở về, Tsunade bất chợt giao cho họ... <a href="#">Xem thêm <span class="fa fa-angle-double-right fa-fw"></span></a> 
-								</p>
 							</p>
+							<p class="introduction">
+								Bộ truyện này nói về một nhóm 3 ninja của làng Konoha cùng thế hệ với Naruto : Kindo, Sachi, Kaura. Cũng như bao ninja khác, họ thực hiện rất nhiều nhiệm vụ khác nhau do. Nhưng một ngày, sau khi họ hoàn thành một nhiệm vụ cấp A trở về, Tsunade bất chợt giao cho họ... <a href="#">Xem thêm <span class="fa fa-angle-double-right fa-fw"></span></a> 
+							</p>
+						</div>
+						<div class="content-introduction">
+							<p class="content_title">
+								<h4><span class="fa fa-video-camera fa-fw"></span>Trailer:</h4>
+							</p>
+							<div class="introduction">
+								<video width="825" height="400" autoplay controls>
+									<source src="video/boruto.MP4" type="video/mp4">
+								</video>
+							</div>
 						</div>
 						<div class="all-chapter">
 							<div class="title-all-chapter">
@@ -220,8 +232,20 @@
         </footer>
 	</div>
 
+	
+
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		ctx = canvas.getContext('2d');
+	    ctx.strokeStyle = "#FF0000";
+	    ctx.moveTo(0,0);
+	    ctx.lineTo(200,100);
+	    ctx.stroke();"canvas");
+		
+	</script>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+
 </body>
 </html>

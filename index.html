@@ -83,44 +83,46 @@
 			</div>
 		</header>
 
-		<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;visibility:hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/slider/spin.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;">
-            <div>
-                <img data-u="image" src="images/slider/slider01.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="images/slider/slider02.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="images/slider/slider03.jpg" />
-            </div>
-            
-            <a data-u="any" href="https://www.jssor.com" style="display:none">js slider</a>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-            <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-        <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-            </svg>
-        </div>
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-            </svg>
-        </div>
-    </div>
+		<div class="container slide">
+			<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;visibility:hidden;">
+		        <!-- Loading Screen -->
+		        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+		            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/slider/spin.svg" />
+		        </div>
+		        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;">
+		            <div>
+		                <img data-u="image" src="images/slider/slider01.jpg" />
+		            </div>
+		            <div>
+		                <img data-u="image" src="images/slider/slider02.jpg" />
+		            </div>
+		            <div>
+		                <img data-u="image" src="images/slider/slider03.jpg" />
+		            </div>
+		            
+		            <a data-u="any" href="https://www.jssor.com" style="display:none">js slider</a>
+		        </div>
+		        <!-- Bullet Navigator -->
+		        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+		            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+		                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+		                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+		                </svg>
+		            </div>
+		        </div>
+		        <!-- Arrow Navigator -->
+		        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+		            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+		                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+		            </svg>
+		        </div>
+		        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+		            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+		                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+		            </svg>
+		        </div>
+		    </div>
+		</div>
 
 		<div class="container">
 			<div class="row">
@@ -133,7 +135,7 @@
 					</div>
 					<div class="content_new_story">
 						<div class="new_story">
-							<a href="#"><img src="images/new_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -142,7 +144,7 @@
 					</div>
 					<div class="content_new_story">
 						<div class="new_story">
-							<a href="#"><img src="images/new_01.png"></a>
+							<a href="#"><img  class="new_story_image" src="images/new_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -151,7 +153,7 @@
 					</div>
 					<div class="content_new_story">
 						<div class="new_story">
-							<a href="#"><img src="images/new_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -160,7 +162,7 @@
 					</div>
 					<div class="content_new_story">
 						<div class="new_story end">
-							<a href="#"><img src="images/new_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -173,7 +175,7 @@
 						<p class="color_text">Fans of Books store</p>
 					</div>
 					<div class="content_new_face">
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="290" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</div>
 				</div>
 			</div>
@@ -190,28 +192,28 @@
 					</div>
 					<div class="content_new_story">
 						<div class="new_story">
-							<a href="info.html"><img src="images/boruto.png"></a>
+							<a href="info.html"><img class="new_story_image" src="images/boruto.png"></a>
 							<div class="text_new_story">
 								<h5>Boruto</h5>
 								<h6>(2017)</h6>
 							</div>
 						</div>
 						<div class="new_story">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="info_doraemon.html"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+								<h5>Doreamon</h5>
+								<h6>(2005)</h6>
 							</div>
 						</div>
 						<div class="new_story">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
 							</div>
 						</div>
 						<div class="new_story end">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -221,28 +223,28 @@
 					<!-- row2 in truyen bo -->
 					<div class="content_new_story">
 						<div class="new_story">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
 							</div>
 						</div>
 						<div class="new_story">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
 							</div>
 						</div>
 						<div class="new_story">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
 							</div>
 						</div>
 						<div class="new_story end">
-							<a href="#"><img src="images/truyen_bo_01.png"></a>
+							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
 							<div class="text_new_story">
 								<h5>Name book</h5>
 								<h6>(1997)</h6>
@@ -257,7 +259,7 @@
 					<div class="content_top_story">
 						<div class="top_xephang">
 							<img src="images/icon_top.png">
-							<a href="#" class="text_top">Boruto: Naruto Next Generations</a>
+							<a href="info.html" class="text_top">Boruto: Naruto Next Generations</a>
 						</div>
 						<div class="top_xephang">
 							<img src="images/icon_top02.png">
@@ -283,13 +285,17 @@
 							<img src="images/icon_top07.png">
 							<a href="#" class="text_top">Naruto Next Generations</a>
 						</div>
-						<div class="top_xephang">
+						<!-- <div class="top_xephang">
 							<img src="images/icon_top08.png">
 							<a href="#" class="text_top">Naruto Next Generations</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="container iframe-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1916.9932425943593!2d108.22999405790306!3d16.06619109722071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142182c7b31922f%3A0xb7dd4d783791397c!2zTmd1eeG7hW4gVGjDtG5nLCBBbiBI4bqjaSBUw6J5LCBTxqFuIFRyw6AsIMSQw6AgTuG6tW5nLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1505277023919" width="1170" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 
 		<div class="up">
