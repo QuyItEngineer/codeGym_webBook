@@ -20,3 +20,28 @@ label.radio-inline {
 	display: flex;
     flex-direction: row;
 }
+.form_sing_in {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #dad7db;
+    border-radius: 5px;
+    color: #11375b;
+}
+.container.form_sing_in {
+    width: 30%;
+    margin: 25px auto;
+    padding: 10px;
+    box-shadow: 3px 3px 10px;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #11375b;
+    border: 0;
+    border-bottom: 1px solid #11375b;
+}

@@ -3,89 +3,90 @@
 <head>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<title>Books store</title>
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/info.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	</head>
+</head>
 <body>
 	<div id="wapper">
 		<header>
-		<div class="container">
-			<div class="header main">
-				<div class="logo">
-					
-					<div class="image_logo">
+			<div class="container">
+				<div class="header main">
+					<div class="logo">
+						
+						<div class="image_logo">
+							<a href="index.html">
+								<img src="images/book_logo.png">
+							</a>
+						</div>
 						<a href="index.html">
-							<img src="images/book_logo.png">
+							<div class="image_text">
+								<p><h3 class="textlogo_h3"><b>BOOKS</b>&nbsp<span class="story">story</span></h3></p>
+								
+							</div>
 						</a>
 					</div>
-					<a href="index.html">
-						<div class="image_text">
-							<p><h3><b>BOOKS</b></h3><h5>store</h5></p>
-							
+					<nav class="navbar navbar-default" role="navigation" id="navbar_header">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+					
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse navbar-ex1-collapse">
+								<div class="menu_header_list">
+										<ul>
+											<li>
+												<a href="/index.html">
+													<span class="fa fa-tasks fw"></span>Categories</a>
+
+											</li>
+												<ul class="ul1">
+											        <li><a href="#">Truyện tranh</a></li>
+											        <li><a href="#">Truyện bộ</a></li>
+										        </ul>
+										        <ul class="ul2">
+										        	 <li><a href="#">Truyện dài</a></li>
+											        <li><a href="#">Truyện hay</a></li>
+										        </ul>
+										</ul>
+									</div>
+								<ul class="nav navbar-nav">
+									<li><a href="#" id="shop_book">
+										<span class="fa fa-shopping-cart fw"></span>Shop books</a>
+									</li>
+								</ul>
+								<form action="" class="search-form">
+					                <div class="form-group has-feedback">
+					            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+					              		<a href="#"><span id="search-icon" class="fa fa-search fa-fw"></span></a>
+					            	</div>
+					            </form>
+								<button type="button" class="btn btn-primary sing_in">
+									<a class="sing_in" href="signin.html">Sign In</a>
+								</button>
+							</div><!-- /.navbar-collapse -->
 						</div>
-					</a>
+					</nav>
 				</div>
-				<nav class="navbar navbar-default" role="navigation" id="navbar_header">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-				
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-ex1-collapse">
-							<div class="menu_header_list">
-									<ul>
-										<li>
-											<a href="/index.html">Categories</a>
-
-										</li>
-											<ul class="ul1">
-										        <li><a href="#">Truyện tranh</a></li>
-										        <li><a href="#">Truyện bộ</a></li>
-									        </ul>
-									        <ul class="ul2">
-									        	 <li><a href="#">Truyện dài</a></li>
-										        <li><a href="#">Truyện dân gian</a></li>
-									        </ul>
-									</ul>
-								</div>
-							<ul class="nav navbar-nav">
-								<li><a href="#" id="shop_book">Shop books</a></li>
-							</ul>
-							<form action="" class="search-form">
-				                <div class="form-group has-feedback">
-				            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
-				              		<a href="#"><span class="fa fa-search fa-fw"></span></a>
-				            	</div>
-				            </form>
-							<button type="button" class="btn btn-primary sing_in">
-								<a class="sing_in" href="signin.html">Sign In</a>
-							</button>
-						</div><!-- /.navbar-collapse -->
-					</div>
-				</nav>
 			</div>
-		</div>
-	</header>
+		</header>
 
-        <div class="container">
+        <div class="container fix_header">
             <div class="row">
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                    <div class="title_link">
-                        <div class="title_new">
-                            <a href="#" class="color_text">Truyện mới</a>
-                        </div>
-                    </div>
+                    
 					<div class="content_info">
 						<div class="row gioi_thieu">
 							<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
@@ -106,12 +107,13 @@
 										Đánh giá truyện:
 									</p>
 									<img src="images/info/info-02.png" alt="">
-								</div>
-								<div class="read-and-buy">
+									<div class="read-and-buy">
 										<a href="page_read_boruto.html"><img class="hover_button_info" src="images/info/info-03.png" alt=""></a>
-										<a href="#"><img class="hover_button_info" src="images/info/info-04.png" alt=""></a>
+										<a href="buy_book_doraemon.html"><img class="hover_button_info" src="images/info/info-04.png" alt=""></a>
 										
 									</div>
+								</div>
+								
 							</div>
 						</div>
 						<div class="content-introduction">
@@ -127,7 +129,7 @@
 								<h4><span class="fa fa-video-camera fa-fw"></span>Trailer:</h4>
 							</p>
 							<div class="introduction">
-								<video width="825" height="400" autoplay controls>
+								<video width="100%" height="400" autoplay controls>
 									<source src="video/boruto.MP4" type="video/mp4">
 								</video>
 							</div>
@@ -166,11 +168,9 @@
 
                 </div>
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <div class="title_new_story">
-                        <p class="color_text">Fans of Books store</p>
-                    </div>
+                    
                     <div class="content_new_face">
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                     </div>
                     <div class="title_new_story">
 						<p class="color_text">Top truyện</p>

@@ -11,3 +11,27 @@
 .image_read{
 	width: 100%;
 }
+#flipbook .turn-page{
+	width:50%;
+	height:500px;
+	background-color:#F8F8FF;
+}
+.mybook{
+	
+}
+.hard{
+	background-color: aqua;
+	font-size: 1.2em;
+	outline: 1 #DCD;
+	border-radius: 10px;
+}
+.page_chirld{
+	background-color: #CCC;
+	border-radius: 10px;
+}
+.page-wrapper{
+}
+.all{
+	margin-left: 250px;
+
+}

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Books read</title>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/page_read_boruto.css">
@@ -13,8 +15,8 @@
 </head>
 </head>
 <body>
-	<div class="wapper">
-		<header>
+<div class="wapper">
+	<header>
             <div class="container">
                 <div class="header main">
                     <div class="logo">
@@ -26,7 +28,7 @@
                         </div>
                         <a href="index.html">
                             <div class="image_text">
-                                <p><h3><b>BOOKS</b></h3><h4>store</h4></p>
+                                <p><h3 class="textlogo_h3"><b>BOOKS</b>&nbsp<span class="story">story</span></h3></p>
                                 
                             </div>
                         </a>
@@ -48,7 +50,8 @@
                                 <div class="menu_header_list">
                                         <ul>
                                             <li>
-                                                <a href="/index.html">Categories</a>
+                                                <a href="/index.html">
+                                                    <span class="fa fa-tasks fw"></span>Categories</a>
 
                                             </li>
                                                 <ul class="ul1">
@@ -57,17 +60,19 @@
                                                 </ul>
                                                 <ul class="ul2">
                                                      <li><a href="#">Truyện dài</a></li>
-                                                    <li><a href="#">Truyện dân gian</a></li>
+                                                    <li><a href="#">Truyện hay</a></li>
                                                 </ul>
                                         </ul>
                                     </div>
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#" id="shop_book">Shop books</a></li>
+                                    <li><a href="#" id="shop_book">
+                                        <span class="fa fa-shopping-cart fw"></span>Shop books</a>
+                                    </li>
                                 </ul>
                                 <form action="" class="search-form">
                                     <div class="form-group has-feedback">
                                         <input type="text" class="form-control" name="search" id="search" placeholder="search">
-                                        <a href="#"><span class="fa fa-search fa-fw"></span></a>
+                                        <a href="#"><span id="search-icon" class="fa fa-search fa-fw"></span></a>
                                     </div>
                                 </form>
                                 <button type="button" class="btn btn-primary sing_in">
@@ -79,61 +84,48 @@
                 </div>
             </div>
         </header>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                    <img src="images/pages/naruto/naruto01.jpg" alt="naruto01" class="image_read">
-                    <img src="images/pages/naruto/naruto02.jpg" alt="naruto02" class="image_read">
-                    <img src="images/pages/naruto/naruto03.jpg" alt="naruto03" class="image_read">
-                    <img src="images/pages/naruto/naruto04.jpg" alt="naruto04" class="image_read">
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <div class="title_new_story">
-                        <p class="color_text">Fans of Books store</p>
-                    </div>
-                    <div class="content_new_face">
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                    </div>
-                    <div class="title_new_story">
-                        <p class="color_text">Top truyện</p>
-                    </div>
-                    <div class="content_top_story">
-                        <div class="top_xephang">
-                            <img src="images/icon_top.png">
-                            <a href="#" class="text_top">Boruto: Naruto Next Generations</a>
-                        </div>
-                        <div class="top_xephang">
-                            <img src="images/icon_top02.png">
-                            <a href="#" class="text_top">Naruto Next Generations</a>
-                        </div>
-                        <div class="top_xephang">
-                            <img src="images/icon_top03.png">
-                            <a href="#" class="text_top">Dragon ball</a>
-                        </div>
-                        <div class="top_xephang">
-                            <img src="images/icon_top04.png">
-                            <a href="#" class="text_top">Naruto Next Generations</a>
-                        </div>
-                        <div class="top_xephang">
-                            <img src="images/icon_top05.png">
-                            <a href="#" class="text_top">A cute love story</a>
-                        </div>
-                        <div class="top_xephang">
-                            <img src="images/icon_top06.png">
-                            <a href="#" class="text_top">Naruto Next Generations</a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+    
+    <div class="100pxtop" style="padding-top: 80px">
         
-        <div class="up">
-            <div class="gototop">
-                <a href="#"><span class="fa fa-chevron-up fa-fw"></span></a>
+    </div>
+    <div class="all">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div id="flipbook" class="mybook">
+                <div class="hard"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto01.jpg"> 
+                </div>
+                <div class="hard">
+                    <img style="width: 100%" src="images/pages/naruto/naruto01.jpg"> 
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto02.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto03.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto04.jpg">
+                </div>
+                <div class="page_chirld"> 
+                     <img style="width: 100%" src="images/pages/naruto/naruto02.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto06.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto07.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto08.jpg">
+                </div>
+                <div class="page_chirld"> 
+                    <img style="width: 100%" src="images/pages/naruto/naruto05.jpg">
+                </div>
+            </div>  
             </div>
         </div>
+    </div>
 
         <footer>
             <div class="container">
@@ -153,9 +145,24 @@
                     </div>
             </div>
         </footer>
+    
+
 	</div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/read/hash.js"></script>
+<script type="text/javascript" src="js/read/turn.min.js"></script>
+<script type="text/javascript" src="js/read/zoom.min.js"></script>
+<script type="text/javascript">
+    $(window).ready(function() {
+        $("#flipbook").turn({
+            width: 800,
+            height: 632,
+            autoCenter: true
+        });
+    });
+</script>
 </body>
 </html>
+

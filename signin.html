@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Books store</title>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -18,72 +20,75 @@
 
 <div id="wapper">
 	<header>
-		<div class="container">
-			<div class="header main">
-				<div class="logo">
-					
-					<div class="image_logo">
+			<div class="container">
+				<div class="header main">
+					<div class="logo">
+						
+						<div class="image_logo">
+							<a href="index.html">
+								<img src="images/book_logo.png">
+							</a>
+						</div>
 						<a href="index.html">
-							<img src="images/book_logo.png">
+							<div class="image_text">
+								<p><h3 class="textlogo_h3"><b>BOOKS</b>&nbsp<span class="story">story</span></h3></p>
+								
+							</div>
 						</a>
 					</div>
-					<a href="index.html">
-						<div class="image_text">
-							<p><h3><b>BOOKS</b></h3><h5>store</h5></p>
-							
-						</div>
-					</a>
-				</div>
-				<nav class="navbar navbar-default" role="navigation" id="navbar_header">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-				
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-ex1-collapse">
-							<div class="menu_header_list">
-									<ul>
-										<li>
-											<a href="/index.html">Categories</a>
+					<nav class="navbar navbar-default" role="navigation" id="navbar_header">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+					
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse navbar-ex1-collapse">
+								<div class="menu_header_list">
+										<ul>
+											<li>
+												<a href="/index.html">
+													<span class="fa fa-tasks fw"></span>Categories</a>
 
-										</li>
-											<ul class="ul1">
-										        <li><a href="#">Truyện tranh</a></li>
-										        <li><a href="#">Truyện bộ</a></li>
-									        </ul>
-									        <ul class="ul2">
-									        	 <li><a href="#">Truyện dài</a></li>
-										        <li><a href="#">Truyện dân gian</a></li>
-									        </ul>
-									</ul>
-								</div>
-							<ul class="nav navbar-nav">
-								<li><a href="#" id="shop_book">Shop books</a></li>
-							</ul>
-							<form action="" class="search-form">
-				                <div class="form-group has-feedback">
-				            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
-				              		<a href="#"><span class="fa fa-search fa-fw"></span></a>
-				            	</div>
-				            </form>
-							<button type="button" class="btn btn-primary sing_in">
-								<a class="sing_in" href="signin.html">Sing In</a>
-							</button>
-						</div><!-- /.navbar-collapse -->
-					</div>
-				</nav>
+											</li>
+												<ul class="ul1">
+											        <li><a href="#">Truyện tranh</a></li>
+											        <li><a href="#">Truyện bộ</a></li>
+										        </ul>
+										        <ul class="ul2">
+										        	 <li><a href="#">Truyện dài</a></li>
+											        <li><a href="#">Truyện hay</a></li>
+										        </ul>
+										</ul>
+									</div>
+								<ul class="nav navbar-nav">
+									<li><a href="#" id="shop_book">
+										<span class="fa fa-shopping-cart fw"></span>Shop books</a>
+									</li>
+								</ul>
+								<form action="" class="search-form">
+					                <div class="form-group has-feedback">
+					            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+					              		<a href="#"><span id="search-icon" class="fa fa-search fa-fw"></span></a>
+					            	</div>
+					            </form>
+								<button type="button" class="btn btn-primary sing_in">
+									<a class="sing_in" href="signin.html">Sign In</a>
+								</button>
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</nav>
+				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 	<div class="container fix_header">
-		<div class="container sing_in">
+		<div class="container form_sing_in">
 			<form action="javascript:void(0)" method="POST" role="form" >
 				<legend>Follow us!</legend>
 			
@@ -112,7 +117,7 @@
 				</div>
 			
 				<div class="button_round">
-					<button type="submit" class="btn btn-primary" id="submit_form" onclick="check_empty();">Sign In</button>
+					<button type="submit" class="btn btn-primary sing_in" id="submit_form" onclick="check_empty();"><strong>Sign In</strong></button>
 					<button type="button" class="btn btn-default"><a href="index.html">Cancel</a></button>
 				</div>
 			</form>

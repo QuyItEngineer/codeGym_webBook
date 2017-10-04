@@ -1,11 +1,18 @@
+.hover_button_info:hover{
+    transform: scale(1.02);
+}
+.wdth_footer_60 p {
+    color: #FFBA49;
+}
 .color_text{
-		color: #dad7db;
+		font-weight: bold;
+		color: #11375b;
 	}
 	body{
 		/*width: 1920px;*/
 		padding: 0px;
 		margin: 0px;
-		font-family: "Open Sans", Sans-serif;
+		font-family: 'Vollkorn', serif;
 		/* font-size: 14px;*/
 	}
 	/*@media all and (max-width: 1366px) {
@@ -33,6 +40,7 @@ div#wapper {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: #F8F8FF;
 }
 
 .container {
@@ -45,11 +53,12 @@ div#wapper {
     right: 10px;
     width: 40px;
     height: 40px;
-    background-color: #c7bdcb;
+    background-color: #FFBA49;
     text-align: center;
     padding-top: 10px;
     animation-name: gototop;
-    animation-duration: 4s; 
+    animation-duration: 4s;
+    border-radius: 5px;
 }
 ::-webkit-scrollbar {
     width: 12px;

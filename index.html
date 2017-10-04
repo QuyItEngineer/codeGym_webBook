@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Books store</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -29,7 +32,7 @@
 						</div>
 						<a href="index.html">
 							<div class="image_text">
-								<p><h3><b>BOOKS</b></h3><h4>store</h4></p>
+								<p><h3 class="textlogo_h3"><b>BOOKS</b>&nbsp<span class="story">story</span></h3></p>
 								
 							</div>
 						</a>
@@ -51,7 +54,8 @@
 								<div class="menu_header_list">
 										<ul>
 											<li>
-												<a href="/index.html">Categories</a>
+												<a href="/index.html">
+													<span class="fa fa-tasks fw"></span>Categories</a>
 
 											</li>
 												<ul class="ul1">
@@ -60,17 +64,19 @@
 										        </ul>
 										        <ul class="ul2">
 										        	 <li><a href="#">Truyện dài</a></li>
-											        <li><a href="#">Truyện dân gian</a></li>
+											        <li><a href="#">Truyện hay</a></li>
 										        </ul>
 										</ul>
 									</div>
 								<ul class="nav navbar-nav">
-									<li><a href="#" id="shop_book">Shop books</a></li>
+									<li><a href="#" id="shop_book">
+										<span class="fa fa-shopping-cart fw"></span>Shop books</a>
+									</li>
 								</ul>
 								<form action="" class="search-form">
 					                <div class="form-group has-feedback">
 					            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
-					              		<a href="#"><span class="fa fa-search fa-fw"></span></a>
+					              		<a href="#"><span id="search-icon" class="fa fa-search fa-fw"></span></a>
 					            	</div>
 					            </form>
 								<button type="button" class="btn btn-primary sing_in">
@@ -83,22 +89,27 @@
 			</div>
 		</header>
 
-		<div class="container slide">
-			<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;visibility:hidden;">
+		<div class="slide">
+			<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1360px;height:450px;overflow:hidden;visibility:hidden;">
 		        <!-- Loading Screen -->
 		        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
 		            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/slider/spin.svg" />
 		        </div>
-		        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1140px;height:380px;overflow:hidden;">
-		            <div>
-		                <img data-u="image" src="images/slider/slider01.jpg" />
+		        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1360px;height:450px;overflow:hidden;">
+		        	<div>
+		                <img data-u="image" src="images/slider/slidehd05.jpg" />
 		            </div>
 		            <div>
-		                <img data-u="image" src="images/slider/slider02.jpg" />
+		                <img data-u="image" src="images/slider/slidehd02.jpg" />
 		            </div>
 		            <div>
-		                <img data-u="image" src="images/slider/slider03.jpg" />
+		                <img data-u="image" src="images/slider/slidehd01.jpg" />
 		            </div>
+		            <div>
+		                <img data-u="image" src="images/slider/slidehd04.jpg" />
+		            </div>
+		            
+		            
 		            
 		            <a data-u="any" href="https://www.jssor.com" style="display:none">js slider</a>
 		        </div>
@@ -122,6 +133,10 @@
 		            </svg>
 		        </div>
 		    </div>
+		    <div class="text-in-image">
+		                	<p><h2>TOP STORIES FOR YOU</h2></p>
+		                	<h4>Happy to Your life!</h4>
+		                </div>
 		</div>
 
 		<div class="container">
@@ -129,43 +144,58 @@
 				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
 					<div class="title_new_story">
 						<div class="title_new">
-							<a href="#" class="color_text">Truyện mới</a>
-							<a href="#" class="right color_text">Xem thêm</a>
+							
+									<a href="#" class="color_text">Truyện mới</a>
+								
+								
+									<a href="#" class="right color_text">Xem thêm</a>
+								
+													
 						</div>
 					</div>
-					<div class="content_new_story">
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<div class="content_new_story">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/home/home01.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="content_new_story">
-						<div class="new_story">
-							<a href="#"><img  class="new_story_image" src="images/new_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<div class="content_new_story">
+								<div class="new_story">
+									<a href="info.html"><img  class="new_story_image hover_button_info" src="images/connan.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="content_new_story">
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<div class="content_new_story">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/home/home02.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="content_new_story">
-						<div class="new_story end">
-							<a href="#"><img class="new_story_image" src="images/new_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<div class="content_new_story">
+								<div class="new_story end">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/home/home03.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -175,7 +205,7 @@
 						<p class="color_text">Fans of Books store</p>
 					</div>
 					<div class="content_new_face">
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=265&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="290" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiengnhatgiaotiepdanang%2F&tabs=timeline&width=270&height=290&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="290" style="border-radius: 5px;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</div>
 				</div>
 			</div>
@@ -190,64 +220,86 @@
 							<a href="#" class="right color_text">Xem thêm</a>
 						</div>
 					</div>
+
 					<div class="content_new_story">
-						<div class="new_story">
-							<a href="info.html"><img class="new_story_image" src="images/boruto.png"></a>
-							<div class="text_new_story">
-								<h5>Boruto</h5>
-								<h6>(2017)</h6>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info.html"><img class="new_story_image hover_button_info" src="images/boruto.png"></a>
+									<div class="text_new_story">
+										<h4>Boruto</h4>
+										<h6>(2017)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story">
-							<a href="info_doraemon.html"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Doreamon</h5>
-								<h6>(2005)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/truyen_bo_01.png"></a>
+									<div class="text_new_story">
+										<h4>Doreamon</h4>
+										<h6>(2005)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info.html"><img class="new_story_image hover_button_info" src="images/love.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story end">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story end">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/home/home03.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 					<!-- row2 in truyen bo -->
+
 					<div class="content_new_story">
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/dead.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/home/home04.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/connan.jpg"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="new_story end">
-							<a href="#"><img class="new_story_image" src="images/truyen_bo_01.png"></a>
-							<div class="text_new_story">
-								<h5>Name book</h5>
-								<h6>(1997)</h6>
+							<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<div class="new_story end">
+									<a href="info_doraemon.html"><img class="new_story_image hover_button_info" src="images/truyen_bo_01.png"></a>
+									<div class="text_new_story">
+										<h4>Name book</h4>
+										<h6>(1997)</h6>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -295,7 +347,11 @@
 		</div>
 
 		<div class="container iframe-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1916.9932425943593!2d108.22999405790306!3d16.06619109722071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142182c7b31922f%3A0xb7dd4d783791397c!2zTmd1eeG7hW4gVGjDtG5nLCBBbiBI4bqjaSBUw6J5LCBTxqFuIFRyw6AsIMSQw6AgTuG6tW5nLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1505277023919" width="1170" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1916.9932425943593!2d108.22999405790306!3d16.06619109722071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142182c7b31922f%3A0xb7dd4d783791397c!2zTmd1eeG7hW4gVGjDtG5nLCBBbiBI4bqjaSBUw6J5LCBTxqFuIFRyw6AsIMSQw6AgTuG6tW5nLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1505277023919" width="101%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
 		</div>
 
 		<div class="up">
@@ -359,7 +415,7 @@
 
             /*#region responsive code begin*/
 
-            var MAX_WIDTH = 1140;
+            var MAX_WIDTH = 1360;
 
             function ScaleSlider() {
                 var containerElement = jssor_1_slider.$Elmt.parentNode;
