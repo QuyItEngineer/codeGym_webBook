@@ -4,7 +4,20 @@
     padding: 10px;
     box-shadow: 3px 3px 10px;
 }
-
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
 label.radio-inline {
     margin-left: 60px;
 }

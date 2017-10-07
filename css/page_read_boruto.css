@@ -8,8 +8,11 @@
 	}
 }
 .wapper{
-	background-color: #F8F8FF;
+	/*background-color: #F8F8FF;*/
+	
 }
+
+
 .image_read{
 	width: 100%;
 }
@@ -18,9 +21,7 @@
 	height:500px;
 	background-color:#F8F8FF;
 }
-.mybook{
-	
-}
+
 .hard{
 	background-color: aqua;
 	font-size: 1.2em;
@@ -37,3 +38,14 @@
 	margin-left: 250px;
 
 }
+@media (min-width: 1200px){}
+	.container.background-turnjs{
+		background: url("../images/pages/doreamon/backgorund.jpg") bottom ;
+		background-size: cover;
+		width: 100%;
+	};
+}
+.container.background-turnjs{
+		background-image: url("../images/pages/doreamon/backgorund.jpg");
+		width: 100%;
+	};
