@@ -159,8 +159,15 @@ p.introduction:first-letter{
         visibility: visible;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 420px){
-    
+@media only screen and (max-width: 420px){
+    .image_text {
+        visibility: hidden;
+        position: absolute;
+        left: 105px;
+        top: 0px;
+        color: #11375b;
+        z-index: 2;
+    }
     .content_new_face {
         visibility: visible;
     }

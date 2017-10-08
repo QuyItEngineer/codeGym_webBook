@@ -58,3 +58,39 @@ legend {
     border: 0;
     border-bottom: 1px solid #11375b;
 }
+button#submit_form {
+    background-color: #11375b;
+    color: #FFBA49;
+    font-size: 18px;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 482px) and (max-width:  767px) {
+    .container.form_sing_in {
+        width: 50%;
+        margin: 25px auto;
+        padding: 10px;
+        box-shadow: 3px 3px 10px;
+    }
+}
+@media only screen and (max-width:  482px) {
+    .container.form_sing_in {
+        width: 90%;
+        margin: 25px auto;
+        padding: 10px;
+        box-shadow: 3px 3px 10px;
+    }
+    h3.textlogo_h3 {
+    visibility: hidden;
+    color: #363B34;
+    font-size: 23px;
+    font-family: 'Kaushan Script', cursive;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .container.form_sing_in {
+        width: 40%;
+        margin: 25px auto;
+        padding: 10px;
+        box-shadow: 3px 3px 10px;
+    }
+}

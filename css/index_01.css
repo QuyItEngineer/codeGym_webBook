@@ -137,7 +137,68 @@ a.right.color_text::after {
     content: ">>";
     color: #11375b;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 420px){
+	h3.textlogo_h3 {
+    visibility: hidden;
+    color: #363B34;
+    font-size: 23px;
+    font-family: 'Kaushan Script', cursive;
+}
+	.top_xephang {
+    padding-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    height: 72px;
+    display: block;
+}
+	.text-in-image h2{
+		font-size: 16px;
+	}
+	.text-in-image h4{
+		font-size: 12px;
+	}
+	.text-in-image {
+	    width: 250px;
+	    position: relative;
+	    top: -85px;
+	    color: white;
+	    font-family: 'Lobster', cursive;
+	    left: 38px;
+	    margin-bottom: -88px;
+	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){
+	.content_top_story {
+	    height: 600px;
+	    margin-top: 15px;
+	    background-color: #dad7db;
+	    border-radius: 5px;
+	}
+	.top_xephang {
+	    padding-top: 20px;
+	    margin-bottom: 15px;
+	    padding-left: 5px;
+	    height: 72px;
+	    display: list-item;
+	}
+	.text-in-image h2{
+		font-size: 20px;
+	}
+	.text-in-image h4{
+		font-size: 14px;
+	}
+	.text-in-image {
+	    width: 300px;
+	    position: relative;
+	    top: -104px;
+	    color: white;
+	    font-family: 'Lobster', cursive;
+	    left: 51px;
+	    margin-bottom: -92px;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
 	.content_new_face {
 	    margin-top: 15px;
 	    background-color: #dad7db;
